@@ -90,6 +90,13 @@ h6 {
 }
 
 /*--------------------*/
+@font-face {
+  font-family: Gogh;
+  font-display: swap;
+  src: url("../fonts/Gogh-Regular.woff2") format("woff2"), url("../fonts/Gogh-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
 .button {
   display: flex;
   align-items: center;
@@ -1927,7 +1934,7 @@ input:focus {
 }
 
 body {
-  font-family: "Roboto Flex", sans-serif;
+  font-family: Gogh;
   font-optical-sizing: auto;
   font-style: normal;
   color: #0c0c0c;
