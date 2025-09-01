@@ -1877,6 +1877,8 @@ input:focus {
 }
 
 .footer {
+  position: relative;
+  z-index: 2;
   background: #52da7b;
   padding: 80px 0px 40px;
 }
@@ -2997,5 +2999,11 @@ body {
   .header__burger {
     max-width: fit-content;
     padding: 16px 40px;
+  }
+  .intro.text-right h1 {
+    max-width: 100%;
+  }
+  .about__main {
+    grid-template-columns: 1fr;
   }
 }
