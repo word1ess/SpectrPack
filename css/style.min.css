@@ -2534,6 +2534,16 @@ body {
   .trash-page-sell .container {
     flex-wrap: wrap;
   }
+  .dialogbox__window {
+    padding: 32px 16px;
+  }
+  .dialogbox__window h2 {
+    font-size: 25px;
+    margin-bottom: 0px;
+  }
+  .dialogbox__window .block-header {
+    margin-bottom: 16px;
+  }
 }
 @media only screen and (max-width: 768px) {
   h1 {
