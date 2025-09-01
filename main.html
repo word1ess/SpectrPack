@@ -1,0 +1,490 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="img/svgicons/logo-small.svg">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <script defer src="js/app.min.js"></script>
+    <title>Главная</title>
+</head>
+
+    <body>
+        <div class="wrapper">
+            <header class="header" data-aos="fade-down">
+    <div class="container">
+        <a href="/" class="header__logo">
+            <img class="white" src="img/svgicons/logo.svg" alt="logo">
+            <img class="black" src="img/svgicons/logo-black.svg" alt="logo">
+        </a>
+        <nav class="header__nav">
+            <a href="#" class="active">Главная</a>
+            <a href="#">Услуги</a>
+            <a href="#">Производство</a>
+            <a href="#">О нас</a>
+            <a href="#">Закупка отходов</a>
+            <a href="#">Отзывы</a>
+            <a href="#">Отраслевые решения</a>
+            <a href="#">Контакты</a>
+            <button data-modal="callback" class="header__button button">
+                Позвонить
+            </button>
+        </nav>
+        <div class="header__burger">
+            Меню
+        </div>
+        <div class="header__buttons">
+            <button class="header__planet">
+                <img src="img/svgicons/planet.svg" alt="planet">
+            </button>
+            <button data-modal="callback" class="header__button button">
+                Позвонить
+            </button>
+        </div>
+        <div class="header-lang">
+            <p>Выберите язык:</p>
+            <button class="active">
+                <img src="img/svgicons/russia.svg" alt="">
+                <p>Русский</p>
+            </button>
+            <button>
+                <img src="img/svgicons/usa.svg" alt="">
+                <p>English</p>
+            </button>
+        </div>
+    </div>
+</header>
+
+            <main class="content">
+                <section class="intro index pt-0 text-right">
+                    <picture>
+                        <source srcset="img/intro/index/tablet.png" media="(max-width: 992px)">
+                        <source srcset="img/intro/index/mobile.png" media="(max-width: 576px)">
+                        <img src="img/intro/index/index.png" alt="intro-bg">
+                    </picture>
+                    <div class="container">
+                        <h1 data-aos="fade-left" data-aos-delay="300">Лидер производства упаковочных материалов</h1>
+                    </div>
+                </section>
+                <section class="map section">
+                    <div class="container">
+                        <div class="block-lines">
+                            <div class="line"></div>
+                            <div class="line"></div>
+                            <div class="line"></div>
+                        </div>
+                        <header class="block-header">
+                            <h2 data-aos="fade-left">
+                                «Спектр-Пак Юг» — лидер в создании упаковки и вторичной переработке полимеров на Юге России
+                            </h2>
+                            <a
+                                data-aos="fade-up"
+                                data-aos-delay="300"
+                                href="#"
+                                download
+                                class="download-link"
+                            >
+                                презентация
+                                <div class="download-link__img">
+                                    <img src="img/svgicons/download.svg" alt="">
+                                    <p>PDF</p>
+                                </div>
+                            </a>
+                        </header>
+                        <main class="map__map">
+                            <img
+                                data-aos="fade"
+                                data-aos-delay="900"
+                                src="img/svgicons/map.svg"
+                                alt="map"
+                            >
+                        </main>
+                    </div>
+                </section>
+                <section class="actives">
+                    <div class="container">
+                        <div class="block-lines">
+                            <div class="line"></div>
+                            <div class="line"></div>
+                            <div class="line"></div>
+                        </div>
+                        <div class="actives__row">
+                            <aside class="actives__aside">
+                                <img data-aos="fade-right" src="img/index/actives.png" alt="">
+                                <button
+                                    data-modal="callback"
+                                    data-aos="fade-right"
+                                    data-aos-delay="300"
+                                    class="arrow-down left"
+                                >
+                                    <div class="arrow-down__img">
+                                        <img src="img/svgicons/arrow-down.svg" alt="arrow-down">
+                                    </div>
+                                    <p>
+                                        оставить заявку
+                                    </p>
+                                </button>
+                            </aside>
+                            <main class="actives__main">
+                                <header data-aos="fade-left" class="block-header">
+                                    <h2>На протяжении 14 лет компания укрепляет позиции как ведущий производитель упаковочных материалов на рынке полимерных материалов</h2>
+                                </header>
+                                <p data-aos="fade-down" data-aos-delay="300">Активы компании:</p>
+                                <div class="actives__counter block-counter">
+                                    <div data-aos="fade-left" data-aos-delay="400" class="actives__count block-counter__count">
+                                        <p>Современное высокотехнологичное оборудование от ведущих европейских производителей</p>
+                                    </div>
+                                    <div data-aos="fade-left" data-aos-delay="500" class="actives__count block-counter__count">
+                                        <p>Собственные производственные и складские помещения площадью 7 000 м²</p>
+                                    </div>
+                                    <div data-aos="fade-left" data-aos-delay="600" class="actives__count block-counter__count">
+                                        <p>Автопарк для быстрой и надежной доставки по региону</p>
+                                    </div>
+                                    <div data-aos="fade-left" data-aos-delay="700" class="actives__count block-counter__count">
+                                        <p>Комплексные решения упаковки продукции для пищевой, промышленной, сельскохозяйственной, логистической и других отраслей</p>
+                                    </div>
+                                </div>
+                            </main>
+                        </div>
+                    </div>
+                </section>
+                <section class="advantages section">
+                    <div class="container">
+                        <header data-aos="fade-left" class="block-header">
+                            <h2>Гарантируем высокое качество, клиентоориентированный подход и выгодные условия сотрудничества</h2>
+                        </header>
+                        <button
+                            data-scroll="advantages__row"
+                            data-aos="fade-down"
+                            data-aos-delay="300"
+                            class="arrow-down"
+                        >
+                            <div class="arrow-down__img">
+                                <img src="img/svgicons/arrow-down.svg" alt="arrow-down">
+                            </div>
+                            <p>
+                                наши преимущества
+                            </p>
+                        </button>
+                        <main class="advantages__row grid-cards col-4 ">
+                            <div data-aos="fade-right" class="grid-cards__card advantages__advantage">
+                                <h3>Бесплатный образец продукции каждому клиенту</h3>
+                            </div>
+                            <div data-aos="fade-right" data-aos-delay="100" class="grid-cards__card advantages__advantage">
+                                <h3>Разработка состава полимера под запрос</h3>
+                            </div>
+                            <div data-aos="fade-right" data-aos-delay="200" class="grid-cards__card advantages__advantage">
+                                <h3>Нестандартные размеры пленки</h3>
+                            </div>
+                            <div data-aos="fade-right" data-aos-delay="300" class="grid-cards__card advantages__advantage green">
+                                <h3>Современное автоматизированное производство</h3>
+                            </div>
+                        </main>
+                    </div>
+                </section>
+                <section class="popular-products">
+                    <div class="container">
+                        <header data-aos="fade-down" class="block-header">
+                            <h2>Популярная продукция</h2>
+                        </header>
+                        <main data-aos="fade" data-aos-delay="300" class="popular-products__swiper swiper">
+                            <div class="swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="img/popular-products/1.png" alt="">
+                                        <h3>Стрейч</h3>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="img/popular-products/2.png" alt="">
+                                        <h3>Бизнес</h3>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="img/popular-products/3.png" alt="">
+                                        <h3>Пищевая</h3>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="img/popular-products/4.png" alt="">
+                                        <h3>Термоусадочная</h3>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="img/popular-products/5.png" alt="">
+                                        <h3>Гранулы</h3>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="img/popular-products/1.png" alt="">
+                                        <h3>Стрейч</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="swiper-button-prev popular-products__prev"></button>
+                            <button class="swiper-button-next popular-products__next"></button>
+                        </main>
+                    </div>
+                </section>
+                <section class="news section">
+                    <div class="container">
+                        <main class="news__row">
+                            <div data-aos="fade-right" class="news__item">
+                                <header class="block-header">
+                                    <h2>
+                                        Новости
+                                       
+                                        компании
+                                    </h2>
+                                </header>
+                            </div>
+                            <article data-aos="fade-right" data-aos-delay="100" class="news__article">
+                                <div class="news__text">
+                                    <!-- YYYY-MM-DD -->
+                                    <time datatime="2025-11-11">11.11.2025</time>
+                                    <p>Yorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Yorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Yorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
+                                </div>
+                            </article>
+                            <article data-aos="fade-right" data-aos-delay="200" class="news__article">
+                                <div class="news__img">
+                                    <img src="img/index/news/1.png" alt="">
+                                </div>
+                                <div class="news__text">
+                                    <!-- YYYY-MM-DD -->
+                                    <time datatime="2025-11-11">11.11.2025</time>
+                                    <p>Yorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
+                                </div>
+                            </article>
+                            <article data-aos="fade-right" data-aos-delay="300" class="news__article">
+                                <div class="news__img">
+                                    <img src="img/index/news/2.png" alt="">
+                                </div>
+                                <div class="news__text">
+                                    <!-- YYYY-MM-DD -->
+                                    <time datatime="2025-11-11">11.11.2025</time>
+                                    <p>Yorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
+                                </div>
+                            </article>
+                            <article data-aos="fade-right" data-aos-delay="400" class="news__article">
+                                <div class="news__img">
+                                    <img src="img/index/news/3.png" alt="">
+                                </div>
+                                <div class="news__text">
+                                    <div class="news__suptitle">
+                                        Основатель компании
+                                    </div>
+                                    <h3>
+                                        Юлия Васильцова: 
+                                        о женщинах в бизнесе,
+                                        о развитии своей компании и об экономике страны 
+                                        в целом
+                                    </h3>
+                                    <div class="author">
+                                        <img src="img/authors/1.png" alt="">
+                                        <p>Юлия Васильцова, Спектр-Групп</p>
+                                    </div>
+                                    <a href="#" class="button">Читать полностью</a>
+                                </div>
+                            </article>
+                        </main>
+                    </div>
+                </section>
+                <section class="about section">
+                    <div class="container">
+                        <header data-aos="fade-right" class="block-header">
+                            <h2>
+                                О нас в цифрах
+                            </h2>
+                        </header>
+                        <main class="about__main">
+                            <div data-aos="fade-right" data-aos-delay="100" class="about__item">
+                                <p>14</p>
+                                <p>лет успешной работы на рынке</p>
+                                <a href="#" class="arrow-down left reverse">
+                                    <div class="arrow-down__img">
+                                        <img src="img/svgicons/arrow-down.svg" alt="arrow-down">
+                                    </div>
+                                    <p>
+                                        О нас
+                                    </p>
+                                </a>
+                            </div>
+                            <div data-aos="fade-right" data-aos-delay="200" class="about__item">
+                                <p>87</p>
+                                <p>позиций собственного производства</p>
+                                <a href="#" class="arrow-down left reverse">
+                                    <div class="arrow-down__img">
+                                        <img src="img/svgicons/arrow-down.svg" alt="arrow-down">
+                                    </div>
+                                    <p>
+                                        Производство
+                                    </p>
+                                </a>
+                            </div>
+                            <div data-aos="fade-right" data-aos-delay="300" class="about__item">
+                                <p>6</p>
+                                <p>филиалов в России и за рубежом</p>
+                                <a href="#" class="arrow-down left reverse">
+                                    <div class="arrow-down__img">
+                                        <img src="img/svgicons/arrow-down.svg" alt="arrow-down">
+                                    </div>
+                                    <p>
+                                        Контакты
+                                    </p>
+                                </a>
+                            </div>
+                        </main>
+                    </div>
+                </section>
+                <section class="companies">
+                    <div class="container">
+                        <main class="companies__row">
+                            <div data-aos="fade-right" class="companies__item">
+                                <img src="img/companies/1.png" alt="">
+                            </div>
+                            <div data-aos="fade-right" data-aos-delay="100" class="companies__item">
+                                <img src="img/companies/2.png" alt="">
+                            </div>
+                            <div data-aos="fade-right" data-aos-delay="200" class="companies__item">
+                                <img src="img/companies/3.png" alt="">
+                            </div>
+                            <div data-aos="fade-right" data-aos-delay="300" class="companies__item">
+                                <img src="img/companies/4.png" alt="">
+                            </div>
+                            <div data-aos="fade-right" data-aos-delay="400" class="companies__item">
+                                <img src="img/companies/5.png" alt="">
+                            </div>
+                        </main>
+                    </div>
+                </section>
+                <section class="faq">
+                    <div class="container">
+                        <header data-aos="fade-right" class="block-header">
+                            <h2>
+                                FAQ
+                            </h2>
+                        </header>
+                        <main class="faq__row">
+                            <article data-aos="fade-up" data-aos-delay="200" class="faq__block">
+                                <header class="faq__header">Как не ошибиться с выбором упаковочной продукции?</header>
+                                <div class="faq__answer">
+                                    Для оптимального подбора упаковки важно четко определить ваши задачи. Наш специалист поможет уточнить все необходимые параметры:
+                                    <ul>
+                                        <li> ширину и толщину пленки;</li>
+                                        <li>престретч и упругое восстановление;</li>
+                                        <li>особенности груза;</li>
+                                        <li>способ упаковки.</li>
+                                    </ul>
+                                    <br>
+                                    Чем подробнее вы ответите на вопросы, тем быстрее мы подберем для вас материал с идеальным соотношением цены и качества.
+                                </div>
+                            </article>
+                        </main>
+                    </div>
+                </section>
+            </section>
+        </main>
+        <footer class="footer">
+    <div class="container">
+        <div class="footer__top">
+            <div class="footer__item">
+                <a href="#" class="footer__logo">
+                    <img src="img/svgicons/logo-footer.svg" alt="">
+                </a>
+                <p>
+                    «Cпeктp-Пaк ЮГ» – лидер на рынке 
+                    Юга России по производству упаковочных материалов.
+                    <br>
+                    <br>
+                    Работаем только на качественном сырье, производство оснащено современным высокотехнологичным оборудованием.
+                </p>
+            </div>
+            <div class="footer__item">
+                <h2>Навигация</h2>
+                <a href="#">Главная</a>
+                <a href="#">Услуги</a>
+                <a href="#">Производство</a>
+                <a href="#">О нас</a>
+                <a href="#">Закупка отходов</a>
+                <a href="#">Отзывы</a>
+                <a href="#">Решения</a>
+                <a href="#">Контакты</a>
+            </div>
+            <div class="footer__item">
+                <h2>Продукция</h2>
+                <a href="#">Стрейч-пленка</a>
+                <a href="#">ПП & ПЭТ ленты</a>
+                <a href="#">Термоусадочная пленка</a>
+                <a href="#">Стрейч и ПВХ стрейч пищевой</a>
+                <a href="#">Гранулы ПВД</a>
+                <a href="#">Скотч</a>
+                <a href="#">Мешки</a>
+                <a href="#">Гофротара, картонные втулки</a>
+            </div>
+            <div class="footer__item">
+                <h2>Контакты</h2>
+                <a href="#">
+                    <img src="img/svgicons/address.svg" alt="">
+                    Ростовская обл., г. Азов, ул. Дружбы, зд. 28 Т
+                </a>
+                <a href="tel:+7 (800) 500-85-96">
+                    <img src="img/svgicons/phone.svg" alt="">
+                    +7 (800) 500-85-96
+                </a>
+                <a href="mailto:info@spektr-pack.ru">
+                    <img src="img/svgicons/mail.svg" alt="">
+                    info@spektr-pack.ru
+                </a>
+                <a href="mailto:info@spektr-pack.ru">
+                    <img src="img/svgicons/vk.svg" alt="">
+                    ВКонтакте
+                </a>
+                <button class="button-black">Написать нам</button>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <p>2025 ООО "Спектр-Пак Юг". Все права защищены.</p>
+            <a href="#">Политика конфиденциальности</a>
+        </div>
+    </div>
+</footer>
+<div class="dialogbox dialogbox-callback">
+    <div class="dialogbox__inner">
+        <div class="dialogbox__window">
+            <div class="dialogbox__close"></div>
+            <div class="contact__form">
+                <form action="#">
+                    <header class="block-header">
+                        <h2>Закажите обратный звонок и наши специалисты свяжутся с Вами в ближайшее время</h2>
+                    </header>
+                    <main class="dialogbox__inputs">
+                        <input type="text" name="name" placeholder="Имя">
+                        <input type="email" name="email" placeholder="Почта">
+                        <input
+                            type="tel"
+                            name="phone"
+                            placeholder="Телефон*"
+                            required
+                        >
+                    </main>
+                    <footer class="dialogbox__footer">
+                        <label class="checkbox">
+                            <input type="checkbox" class="custom-checkbox" checked="">
+                            <p>
+                                Даю свое согласие на обработку персональных данных
+                                <a target="_blank" href="#">персональных данных</a>
+                            </p>
+                        </label>
+                        <button class="button">Отправить</button>
+                    </footer>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+    </div>
+</body>
+</html>

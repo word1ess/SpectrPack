@@ -1,0 +1,330 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="img/svgicons/logo-small.svg">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <script defer src="js/app.min.js"></script>
+    <title>Услуги</title>
+</head>
+
+    <body>
+        <div class="wrapper">
+            <header class="header" data-aos="fade-down">
+    <div class="container">
+        <a href="/" class="header__logo">
+            <img class="white" src="img/svgicons/logo.svg" alt="logo">
+            <img class="black" src="img/svgicons/logo-black.svg" alt="logo">
+        </a>
+        <nav class="header__nav">
+            <a href="#" class="active">Главная</a>
+            <a href="#">Услуги</a>
+            <a href="#">Производство</a>
+            <a href="#">О нас</a>
+            <a href="#">Закупка отходов</a>
+            <a href="#">Отзывы</a>
+            <a href="#">Отраслевые решения</a>
+            <a href="#">Контакты</a>
+            <button data-modal="callback" class="header__button button">
+                Позвонить
+            </button>
+        </nav>
+        <div class="header__burger">
+            Меню
+        </div>
+        <div class="header__buttons">
+            <button class="header__planet">
+                <img src="img/svgicons/planet.svg" alt="planet">
+            </button>
+            <button data-modal="callback" class="header__button button">
+                Позвонить
+            </button>
+        </div>
+        <div class="header-lang">
+            <p>Выберите язык:</p>
+            <button class="active">
+                <img src="img/svgicons/russia.svg" alt="">
+                <p>Русский</p>
+            </button>
+            <button>
+                <img src="img/svgicons/usa.svg" alt="">
+                <p>English</p>
+            </button>
+        </div>
+    </div>
+</header>
+
+            <main class="content">
+                <section class="section intro services">
+                    <picture>
+                        <source srcset="img/intro/services/tablet.png" media="(max-width: 992px)">
+                        <source srcset="img/intro/services/mobile.png" media="(max-width: 576px)">
+                        <img src="img/intro/services/services.png" alt="intro-bg">
+                    </picture>
+                    <div class="container">
+                        <h1 data-aos="fade-left">Наши услуги</h1>
+                        <footer data-aos="fade-up" data-aos-delay="400" class="intro-services__footer">
+                            <h2>
+                                Мы быстро реагируем 
+                                на изменения рынка
+                            </h2>
+                            <div>
+                                <p>и предлагаем самые выгодные решения в области обеспечения упаковки складов производственных компаний</p>
+                                <button class="button-white-bordered">
+                                    ознакомиться
+                                    <img src="img/svgicons/arrow-down.svg" alt="">
+                                </button>
+                            </div>
+                        </footer>
+                    </div>
+                </section>
+                <section class="section services-page-solutions">
+                    <div class="container">
+                        <header data-aos="fade-right" data-aos-delay="400" class="block-header">
+                            <h2>Комплексные решения для упаковки продукции</h2>
+                        </header>
+                        <main class="grid-cards services-page-solutions__row col-4 ">
+                            <div data-aos="fade-right" data-aos-delay="0" class="services-page-solutions__item">
+                                <img src="img/services/1.png" alt="">
+                                <p>Мебельная отрасль</p>
+                                <a href="#">Подробнее</a>
+                            </div>
+                            <div data-aos="fade-right" data-aos-delay="50" class="services-page-solutions__item">
+                                <img src="img/services/2.png" alt="">
+                                <p>
+                                    Производство консерв 
+                                    и бакалейных изделий
+                                </p>
+                                <a href="#">Подробнее</a>
+                            </div>
+                            <div data-aos="fade-right" data-aos-delay="100" class="services-page-solutions__item">
+                                <img src="img/services/3.png" alt="">
+                                <p>Производство молочной продукции</p>
+                                <a href="#">Подробнее</a>
+                            </div>
+                            <div data-aos="fade-right" data-aos-delay="150" class="services-page-solutions__item">
+                                <img src="img/services/4.png" alt="">
+                                <p>Производство безалкогольных и слабоалкогольных напитков</p>
+                                <a href="#">Подробнее</a>
+                            </div>
+                            <div data-aos="fade-right" data-aos-delay="200" class="services-page-solutions__item">
+                                <img src="img/services/5.png" alt="">
+                                <p>Производство алкогольных напитков</p>
+                                <a href="#">Подробнее</a>
+                            </div>
+                            <div data-aos="fade-right" data-aos-delay="250" class="services-page-solutions__item">
+                                <img src="img/services/6.png" alt="">
+                                <p>Производство хлебобулочных и кондитерских изделий</p>
+                                <a href="#">Подробнее</a>
+                            </div>
+                            <div data-aos="fade-right" data-aos-delay="300" class="services-page-solutions__item">
+                                <img src="img/services/7.png" alt="">
+                                <p>Производство мясной продукции</p>
+                                <a href="#">Подробнее</a>
+                            </div>
+                            <div data-aos="fade-right" data-aos-delay="350" class="services-page-solutions__item">
+                                <img src="img/services/8.png" alt="">
+                                <p>Строительная отрасль</p>
+                                <a href="#">Подробнее</a>
+                            </div>
+                            <div data-aos="fade-right" data-aos-delay="400" class="services-page-solutions__item">
+                                <img src="img/services/9.png" alt="">
+                                <p>Сельское хозяйство</p>
+                                <a href="#">Подробнее</a>
+                            </div>
+                            <div data-aos="fade-right" data-aos-delay="450" class="services-page-solutions__item">
+                                <img src="img/services/10.png" alt="">
+                                <p>Химическая промышленность</p>
+                                <a href="#">Подробнее</a>
+                            </div>
+                            <div data-aos="fade-right" data-aos-delay="500" class="services-page-solutions__item">
+                                <img src="img/services/11.png" alt="">
+                                <p>Рыбная промышленность</p>
+                                <a href="#">Подробнее</a>
+                            </div>
+                            <div data-aos="fade-right" data-aos-delay="550" class="services-page-solutions__item">
+                                <img src="img/services/12.png" alt="">
+                                <p>Легкая промышленность</p>
+                                <a href="#">Подробнее</a>
+                            </div>
+                            <div data-aos="fade-right" data-aos-delay="600" class="services-page-solutions__item">
+                                <img src="img/services/13.png" alt="">
+                                <p>Ритейл и складская логистика</p>
+                                <a href="#">Подробнее</a>
+                            </div>
+                            <div data-aos="fade-right" data-aos-delay="650" class="services-page-solutions__item">
+                                <img src="img/services/14.png" alt="">
+                                <p>Полиграфия</p>
+                                <a href="#">Подробнее</a>
+                            </div>
+                            <div data-aos="fade-right" data-aos-delay="700" class="services-page-solutions__item">
+                                <img src="img/services/15.png" alt="">
+                                <p>Оптовые продажи</p>
+                                <a href="#">Подробнее</a>
+                            </div>
+                        </main>
+                    </div>
+                </section>
+                <section class="form black">
+                    <div class="container">
+                        <form action="#">
+                            <header class="block-left-gap">
+                                <main class="block-left-gap__main">
+                                    <h2>Есть вопросы?</h2>
+                                    <div class="inputs">
+                                        <input
+                                            type="text"
+                                            name="name"
+                                            placeholder="Имя"
+                                            required
+                                        >
+                                        <input
+                                            type="tel"
+                                            name="phohe"
+                                            placeholder="Телефон"
+                                            required
+                                        >
+                                    </div>
+                                    <button type="submit" class="button">Отправить</button>
+                                    <label class="checkbox">
+                                        <input type="checkbox" class="custom-checkbox">
+                                        <p>
+                                            Даю согласие на обработку
+                                            <a href="#">Персональных данных</a>
+                                        </p>
+                                    </label>
+                                </main>
+                            </header>
+                        </form>
+                    </div>
+                </section>
+                <section class="section services-page-trash">
+                    <div class="container">
+                        <header class="block-left-gap">
+                            <aside class="block-left-gap__aside text-green">
+                                <p>Экология</p>
+                            </aside>
+                            <main class="block-left-gap__main">
+                                <h2>Перерабатываем полиэтиленовые отходы и производим вторичные гранулы</h2>
+                                <p>На сегодняшний день вопрос переработки отходов стоит остро во всем мире. Компания Спектр-Пак Юг, действуя в рамках повышения экологической результативности своей деятельности, расширяет завод по переработке полимерных отходов. Производственная мощность 3 200 т. ежедневно.</p>
+                                <p>
+                                    Автоматизированный процесс переработки пленки включает 
+                                    5 степеней очистки полимерных отходов, исключает потери производства и гарантирует стабильное качество. В итоге мы получаем ценное вторичное сырье-вторичное гранула, из которой производим качественный конечный продукт.
+                                </p>
+                                <p>Мы разрабатываем культуру ответственного потребления, и экологической ответственности, путем грамотной переработки полимерных отходов и предоставления необходимой документации для снижения оплаты экологического сбора.</p>
+                            </main>
+                        </header>
+                    </div>
+                </section>
+            </section>
+        </main>
+        <footer class="footer">
+    <div class="container">
+        <div class="footer__top">
+            <div class="footer__item">
+                <a href="#" class="footer__logo">
+                    <img src="img/svgicons/logo-footer.svg" alt="">
+                </a>
+                <p>
+                    «Cпeктp-Пaк ЮГ» – лидер на рынке 
+                    Юга России по производству упаковочных материалов.
+                    <br>
+                    <br>
+                    Работаем только на качественном сырье, производство оснащено современным высокотехнологичным оборудованием.
+                </p>
+            </div>
+            <div class="footer__item">
+                <h2>Навигация</h2>
+                <a href="#">Главная</a>
+                <a href="#">Услуги</a>
+                <a href="#">Производство</a>
+                <a href="#">О нас</a>
+                <a href="#">Закупка отходов</a>
+                <a href="#">Отзывы</a>
+                <a href="#">Решения</a>
+                <a href="#">Контакты</a>
+            </div>
+            <div class="footer__item">
+                <h2>Продукция</h2>
+                <a href="#">Стрейч-пленка</a>
+                <a href="#">ПП & ПЭТ ленты</a>
+                <a href="#">Термоусадочная пленка</a>
+                <a href="#">Стрейч и ПВХ стрейч пищевой</a>
+                <a href="#">Гранулы ПВД</a>
+                <a href="#">Скотч</a>
+                <a href="#">Мешки</a>
+                <a href="#">Гофротара, картонные втулки</a>
+            </div>
+            <div class="footer__item">
+                <h2>Контакты</h2>
+                <a href="#">
+                    <img src="img/svgicons/address.svg" alt="">
+                    Ростовская обл., г. Азов, ул. Дружбы, зд. 28 Т
+                </a>
+                <a href="tel:+7 (800) 500-85-96">
+                    <img src="img/svgicons/phone.svg" alt="">
+                    +7 (800) 500-85-96
+                </a>
+                <a href="mailto:info@spektr-pack.ru">
+                    <img src="img/svgicons/mail.svg" alt="">
+                    info@spektr-pack.ru
+                </a>
+                <a href="mailto:info@spektr-pack.ru">
+                    <img src="img/svgicons/vk.svg" alt="">
+                    ВКонтакте
+                </a>
+                <button class="button-black">Написать нам</button>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <p>2025 ООО "Спектр-Пак Юг". Все права защищены.</p>
+            <a href="#">Политика конфиденциальности</a>
+        </div>
+    </div>
+</footer>
+<div class="dialogbox dialogbox-callback">
+    <div class="dialogbox__inner">
+        <div class="dialogbox__window">
+            <div class="dialogbox__close"></div>
+            <div class="contact__form">
+                <form action="#">
+                    <header class="block-header">
+                        <h2>Закажите обратный звонок и наши специалисты свяжутся с Вами в ближайшее время</h2>
+                    </header>
+                    <main class="dialogbox__inputs">
+                        <input type="text" name="name" placeholder="Имя">
+                        <input type="email" name="email" placeholder="Почта">
+                        <input
+                            type="tel"
+                            name="phone"
+                            placeholder="Телефон*"
+                            required
+                        >
+                    </main>
+                    <footer class="dialogbox__footer">
+                        <label class="checkbox">
+                            <input type="checkbox" class="custom-checkbox" checked="">
+                            <p>
+                                Даю свое согласие на обработку персональных данных
+                                <a target="_blank" href="#">персональных данных</a>
+                            </p>
+                        </label>
+                        <button class="button">Отправить</button>
+                    </footer>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+    </div>
+</body>
+</html>
