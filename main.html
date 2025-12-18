@@ -26,13 +26,23 @@
         </a>
         <nav class="header__nav">
             <a href="#" class="active">Главная</a>
-            <a href="#">Услуги</a>
-            <a href="#">Производство</a>
             <a href="#">О нас</a>
+            <a href="#">Производство</a>
+            <a href="#">Услуги</a>
+            <a href="#">Товары</a>
             <a href="#">Закупка отходов</a>
             <a href="#">Отзывы</a>
-            <a href="#">Отраслевые решения</a>
             <a href="#">Контакты</a>
+            <div class="header-submenu">
+                <div class="header-submenu__button">
+                    <span></span>
+                </div>
+                <div class="header-submenu__container">
+                    <a href="#">Отраслевые решения</a>
+                    <a href="#">Благотворительность</a>
+                    <a href="#">Новости</a>
+                </div>
+            </div>
             <button data-modal="callback" class="header__button button">
                 Позвонить
             </button>
@@ -64,39 +74,38 @@
 
             <main class="content">
                 <section class="intro index pt-0 text-right">
-                    <picture>
-                        <source srcset="img/intro/index/tablet.png" media="(max-width: 992px)">
-                        <source srcset="img/intro/index/mobile.png" media="(max-width: 576px)">
-                        <img src="img/intro/index/index.png" alt="intro-bg">
-                    </picture>
+                    <video
+                        loop
+                        autoplay
+                        playsinline
+                        muted
+                        src="./files/intro/main/index.mp4"
+                    ></video>
                     <div class="container">
                         <h1 data-aos="fade-left" data-aos-delay="300">Лидер производства упаковочных материалов</h1>
                     </div>
                 </section>
                 <section class="map section">
                     <div class="container">
-                        <div class="block-lines">
-                            <div class="line"></div>
-                            <div class="line"></div>
-                            <div class="line"></div>
-                        </div>
-                        <header class="block-header">
-                            <h2 data-aos="fade-left">
-                                «Спектр-Пак Юг» — лидер в создании упаковки и вторичной переработке полимеров на Юге России
-                            </h2>
-                            <a
-                                data-aos="fade-up"
-                                data-aos-delay="300"
-                                href="#"
-                                download
-                                class="download-link"
-                            >
-                                презентация
-                                <div class="download-link__img">
-                                    <img src="img/svgicons/download.svg" alt="">
-                                    <p>PDF</p>
-                                </div>
-                            </a>
+                        <header class="block-left-gap">
+                            <div class="block-left-gap__main">
+                                <h2 data-aos="fade-left">
+                                    «Производственный холдинг Спектр-Пак» — лидер в создании упаковки и вторичной переработке полимеров на Юге России
+                                </h2>
+                                <a
+                                    data-aos="fade-up"
+                                    data-aos-delay="300"
+                                    href="#"
+                                    download
+                                    class="download-link"
+                                >
+                                    презентация
+                                    <div class="download-link__img">
+                                        <img src="img/svgicons/download.svg" alt="">
+                                        <p>PDF</p>
+                                    </div>
+                                </a>
+                            </div>
                         </header>
                         <main class="map__map">
                             <img
@@ -110,31 +119,14 @@
                 </section>
                 <section class="actives">
                     <div class="container">
-                        <div class="block-lines">
-                            <div class="line"></div>
-                            <div class="line"></div>
-                        </div>
+                        <header data-aos="fade-left" class="block-header">
+                            <h2>На протяжении 15 лет компания укрепляет позиции как ведущий производитель упаковочных материалов на рынке полимерных материалов</h2>
+                        </header>
                         <div class="actives__row">
                             <aside class="actives__aside">
-                                <img data-aos="fade-right" src="img/index/actives.png" alt="">
-                                <button
-                                    data-modal="callback"
-                                    data-aos="fade-right"
-                                    data-aos-delay="300"
-                                    class="arrow-down left"
-                                >
-                                    <div class="arrow-down__img">
-                                        <img src="img/svgicons/arrow-down.svg" alt="arrow-down">
-                                    </div>
-                                    <p>
-                                        оставить заявку
-                                    </p>
-                                </button>
+                                <img data-aos="fade-right" src="img/svgicons/logo-small.svg" alt="">
                             </aside>
                             <main class="actives__main">
-                                <header data-aos="fade-left" class="block-header">
-                                    <h2>На протяжении 14 лет компания укрепляет позиции как ведущий производитель упаковочных материалов на рынке полимерных материалов</h2>
-                                </header>
                                 <p data-aos="fade-down" data-aos-delay="300">Активы компании:</p>
                                 <div class="actives__counter block-counter">
                                     <div data-aos="fade-left" data-aos-delay="400" class="actives__count block-counter__count">
@@ -156,8 +148,14 @@
                 </section>
                 <section class="advantages section">
                     <div class="container">
-                        <header data-aos="fade-left" class="block-header">
-                            <h2>Гарантируем высокое качество, клиентоориентированный подход и выгодные условия сотрудничества</h2>
+                        <header class="block-left-gap block-header">
+                            <div class="block-left-gap__main">
+                                <h2>
+                                    Гарантируем высокое качество,
+                                    <span>клиентоориентированный</span>
+                                    подход и выгодные условия сотрудничества
+                                </h2>
+                            </div>
                         </header>
                         <button
                             data-scroll="advantages__row"
@@ -174,56 +172,21 @@
                         </button>
                         <main class="advantages__row grid-cards col-4 ">
                             <div data-aos="fade-right" class="grid-cards__card advantages__advantage">
-                                <h3>Бесплатный образец продукции каждому клиенту</h3>
+                                <h3>
+                                    Завод полного цикла.
+                                    <br>
+                                    Более 15 лет на рынке
+                                </h3>
                             </div>
                             <div data-aos="fade-right" data-aos-delay="100" class="grid-cards__card advantages__advantage">
-                                <h3>Разработка состава полимера под запрос</h3>
+                                <h3>Интеграция решения по оптимизации затрат на упаковку для клиента</h3>
                             </div>
                             <div data-aos="fade-right" data-aos-delay="200" class="grid-cards__card advantages__advantage">
-                                <h3>Нестандартные размеры пленки</h3>
+                                <h3>Качество продукции подтверждено сертификатами: «Сделано на Дону», «Сделано в России»</h3>
                             </div>
                             <div data-aos="fade-right" data-aos-delay="300" class="grid-cards__card advantages__advantage green">
-                                <h3>Современное автоматизированное производство</h3>
+                                <h3>Возможность обратного выкупа отходов пленки и картонных гильз</h3>
                             </div>
-                        </main>
-                    </div>
-                </section>
-                <section class="popular-products">
-                    <div class="container">
-                        <header data-aos="fade-down" class="block-header">
-                            <h2>Популярная продукция</h2>
-                        </header>
-                        <main data-aos="fade" data-aos-delay="300" class="popular-products__swiper swiper">
-                            <div class="swiper">
-                                <div class="swiper-wrapper">
-                                    <div class="swiper-slide">
-                                        <img src="img/popular-products/1.png" alt="">
-                                        <h3>Стрейч</h3>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <img src="img/popular-products/2.png" alt="">
-                                        <h3>Бизнес</h3>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <img src="img/popular-products/3.png" alt="">
-                                        <h3>Пищевая</h3>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <img src="img/popular-products/4.png" alt="">
-                                        <h3>Термоусадочная</h3>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <img src="img/popular-products/5.png" alt="">
-                                        <h3>Гранулы</h3>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <img src="img/popular-products/1.png" alt="">
-                                        <h3>Стрейч</h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <button class="swiper-button-prev popular-products__prev"></button>
-                            <button class="swiper-button-next popular-products__next"></button>
                         </main>
                     </div>
                 </section>
@@ -242,28 +205,25 @@
                             <article data-aos="fade-right" data-aos-delay="100" class="news__article">
                                 <div class="news__text">
                                     <!-- YYYY-MM-DD -->
-                                    <time datatime="2025-11-11">11.11.2025</time>
-                                    <p>Yorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Yorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Yorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
+                                    <time datatime="2025-11-30">30.11.2025</time>
+                                    <p>27 ноября руководство Холдинга «Спектр Пак» приняло участие в Межрегиональном промышленном форуме «ПромФорум» — ключевом событии года для производственного сектора юга России.</p>
+                                    <a href="#">Подробнее</a>
                                 </div>
                             </article>
                             <article data-aos="fade-right" data-aos-delay="200" class="news__article">
-                                <div class="news__img">
-                                    <img src="img/index/news/1.png" alt="">
-                                </div>
                                 <div class="news__text">
                                     <!-- YYYY-MM-DD -->
-                                    <time datatime="2025-11-11">11.11.2025</time>
-                                    <p>Yorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
+                                    <time datatime="2025-10-23">23.10.2025</time>
+                                    <p>Больше, чем упаковка: отныне 1 рубль с каждого килограмма нашей пленки направляется в детский фонд «Доброе Дело».</p>
+                                    <a href="#">Подробнее</a>
                                 </div>
                             </article>
                             <article data-aos="fade-right" data-aos-delay="300" class="news__article">
-                                <div class="news__img">
-                                    <img src="img/index/news/2.png" alt="">
-                                </div>
                                 <div class="news__text">
                                     <!-- YYYY-MM-DD -->
-                                    <time datatime="2025-11-11">11.11.2025</time>
-                                    <p>Yorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
+                                    <time datatime="2025-10-13">13.10.2025</time>
+                                    <p>Генеральный директор холдинга Спектр Пак Юлия Васильцова стала победителем V юбилейной Международной премии «Талантливая женщина в современной индустрии» в номинации «Вдохновляющий лидер»</p>
+                                    <a href="#">Подробнее</a>
                                 </div>
                             </article>
                             <article data-aos="fade-right" data-aos-delay="400" class="news__article">
@@ -271,14 +231,9 @@
                                     <img src="img/index/news/3.png" alt="">
                                 </div>
                                 <div class="news__text">
-                                    <div class="news__suptitle">
-                                        Основатель компании
-                                    </div>
+                                    <time datatime="2025-11-19">19.11.2025</time>
                                     <h3>
-                                        Юлия Васильцова: 
-                                        о женщинах в бизнесе,
-                                        о развитии своей компании и об экономике страны 
-                                        в целом
+                                        Холдинг Спектр Пак входит в новый цикл развития — больше возможностей, больше мощности, больше будущего
                                     </h3>
                                     <div class="author">
                                         <img src="img/authors/1.png" alt="">
@@ -292,15 +247,9 @@
                 </section>
                 <section class="about section">
                     <div class="container">
-                        <header data-aos="fade-right" class="block-header">
-                            <h2>
-                                О нас в цифрах
-                            </h2>
-                        </header>
                         <main class="about__main">
                             <div data-aos="fade-right" data-aos-delay="100" class="about__item">
-                                <p>14</p>
-                                <p>лет успешной работы на рынке</p>
+                                <p>Занимаем лидирующие позиции по производству упаковочных материалов в ЮФО</p>
                                 <a href="#" class="arrow-down left reverse">
                                     <div class="arrow-down__img">
                                         <img src="img/svgicons/arrow-down.svg" alt="arrow-down">
@@ -311,8 +260,7 @@
                                 </a>
                             </div>
                             <div data-aos="fade-right" data-aos-delay="200" class="about__item">
-                                <p>87</p>
-                                <p>позиций собственного производства</p>
+                                <p>Производим на современном оборудовании с контролем качества на всех этапах</p>
                                 <a href="#" class="arrow-down left reverse">
                                     <div class="arrow-down__img">
                                         <img src="img/svgicons/arrow-down.svg" alt="arrow-down">
@@ -323,41 +271,155 @@
                                 </a>
                             </div>
                             <div data-aos="fade-right" data-aos-delay="300" class="about__item">
-                                <p>6</p>
-                                <p>филиалов в России и за рубежом</p>
+                                <p>Производим высококачественную продукцию по оптимальным ценам</p>
                                 <a href="#" class="arrow-down left reverse">
                                     <div class="arrow-down__img">
                                         <img src="img/svgicons/arrow-down.svg" alt="arrow-down">
                                     </div>
                                     <p>
-                                        Контакты
+                                        Товары
                                     </p>
                                 </a>
                             </div>
                         </main>
                     </div>
                 </section>
-                <section class="companies">
+                <secton class="years section">
                     <div class="container">
-                        <main class="companies__row">
-                            <div data-aos="fade-right" class="companies__item">
-                                <img src="img/companies/1.png" alt="">
+                        <img src="img/svgicons/logo-small.svg" alt="">
+                        <header class="block-left-gap block-header">
+                            <div class="block-left-gap__main">
+                                <h2>О нас в цифрах</h2>
                             </div>
-                            <div data-aos="fade-right" data-aos-delay="100" class="companies__item">
-                                <img src="img/companies/2.png" alt="">
+                        </header>
+                    </div>
+                    <div class="years__row">
+                        <main class="years__items">
+                            <div class="years__item">
+                                <div class="years__info">
+                                    Основание компании.
+                                    <br>
+                                    Запуск 1-ой производственной линии по выпуску стрейч-пленки
+                                </div>
+                                <p>720 т</p>
+                                <div class="years__square"></div>
+                                <p>2009</p>
                             </div>
-                            <div data-aos="fade-right" data-aos-delay="200" class="companies__item">
-                                <img src="img/companies/3.png" alt="">
+                            <div class="years__item">
+                                <div class="years__info bottom">
+                                    Расширение производственных мощностей и выход в новый сегмент рынка: ввод 2-ой линии по производству стрейч пленки, ввод линии по выпуску термоусадоч-ной пленки
+                                </div>
+                                <p>1560 т</p>
+                                <div class="years__square"></div>
+                                <p>2010</p>
                             </div>
-                            <div data-aos="fade-right" data-aos-delay="300" class="companies__item">
-                                <img src="img/companies/4.png" alt="">
+                            <div class="years__item">
+                                <div class="years__info right">
+                                    Увеличение количества экструзионных линий. Строительство нового производ.компекса площадью 5000 кв.м
+                                </div>
+                                <p>2160 т</p>
+                                <div class="years__square"></div>
+                                <p>2011</p>
                             </div>
-                            <div data-aos="fade-right" data-aos-delay="400" class="companies__item">
-                                <img src="img/companies/5.png" alt="">
+                            <div class="years__item">
+                                <p>3120 т</p>
+                                <div class="years__square"></div>
+                                <p>2013</p>
+                            </div>
+                            <div class="years__item">
+                                <div class="years__info bottom">
+                                    Диверсификация бизнеса. Запуск участка полного цикла по переработке вторичных полимеров
+                                </div>
+                                <p>3480 т</p>
+                                <div class="years__square"></div>
+                                <p>2014</p>
+                            </div>
+                            <div class="years__item">
+                                <div class="years__info">
+                                    Начало производства трехслойных термоусадочных пленок
+                                </div>
+                                <p>4200 т</p>
+                                <div class="years__square"></div>
+                                <p>2015</p>
+                            </div>
+                            <div class="years__item">
+                                <div class="years__info bottom">
+                                    Вывод в сегмент тонких пищевых пленок, работа
+                                    <br>
+                                    с Ритейлом
+                                </div>
+                                <p>5160 т</p>
+                                <div class="years__square"></div>
+                                <p>2017</p>
+                            </div>
+                            <div class="years__item">
+                                <div class="years__info ">
+                                    Внедрение новых техно-логий по изго-товлению
+                                    <br>
+                                    ПЭТ ленты совместно с европейскими производи-телями
+                                </div>
+                                <p>5760 т</p>
+                                <div class="years__square"></div>
+                                <p>2018</p>
+                            </div>
+                            <div class="years__item">
+                                <div class="years__info bottom">
+                                    Увеличение доли рынка в сегменте рециклинга ввод полностью автоматической линии ведущего мирового производителя USTIN IS MAKINA, выпуск вторичной стрейч гранулы
+                                </div>
+                                <p>7200 т</p>
+                                <div class="years__square"></div>
+                                <p>2019</p>
+                            </div>
+                            <div class="years__item">
+                                <div class="years__info">
+                                    Увеличение складских
+                                    <br>
+                                    и производ-ственных помещений, развитие экспорта
+                                </div>
+                                <p>8000 т</p>
+                                <div class="years__square"></div>
+                                <p>2020</p>
+                            </div>
+                            <div class="years__item">
+                                <div class="years__info bottom">
+                                    Расширение территори завода
+                                </div>
+                                <p>9100 т</p>
+                                <div class="years__square"></div>
+                                <p>2021</p>
+                            </div>
+                            <div class="years__item">
+                                <div class="years__info">
+                                    Начало экспорта
+                                </div>
+                                <p>10000 т</p>
+                                <div class="years__square"></div>
+                                <p>2022</p>
+                            </div>
+                            <div class="years__item">
+                                <div class="years__info bottom">
+                                    Запуск новой производственной линии, строительство нового офисного помещения, расширение экспортных территорий
+                                </div>
+                                <p>12000 т</p>
+                                <div class="years__square"></div>
+                                <p>2023</p>
+                            </div>
+                            <div class="years__item">
+                                <p>14000 т</p>
+                                <div class="years__square"></div>
+                                <p>2024</p>
+                            </div>
+                            <div class="years__item">
+                                <div class="years__info">
+                                    Начало контрактного производства ПОФ-пленки
+                                </div>
+                                <p>18000 т</p>
+                                <div class="years__square"></div>
+                                <p>2025</p>
                             </div>
                         </main>
                     </div>
-                </section>
+                </secton>
                 <section class="faq">
                     <div class="container">
                         <header data-aos="fade-right" class="block-header">
@@ -367,18 +429,54 @@
                         </header>
                         <main class="faq__row">
                             <article data-aos="fade-up" data-aos-delay="200" class="faq__block">
-                                <header class="faq__header">Как не ошибиться с выбором упаковочной продукции?</header>
+                                <header class="faq__header">Как не ошибиться с выбором упаковочного решения?</header>
                                 <div class="faq__answer">
-                                    Для оптимального подбора упаковки важно четко определить ваши задачи. Наш специалист поможет уточнить все необходимые параметры:
+                                    Для оптимального подбора упаковочного решения важно четко определить Ваши задачи. Наш специалист поможет уточнить все необходимые параметры и подобрать оптимальный вариант по соотношению цена-качество.
+                                    <br>
+                                    Чем больше информации Вы предоставите о том, что для Вас важно в упаковочных материалах, тем быстрее мы подберем для вас комплексное упаковочное решение.
+                                </div>
+                            </article>
+                            <article data-aos="fade-up" data-aos-delay="300" class="faq__block">
+                                <header class="faq__header">Как сэкономить на упаковочной продукции?</header>
+                                <div class="faq__answer">
+                                    Хотите сократить расходы на упаковочные материалы? Мы предлагаем уникальную возможность — комплексное решение по оптимизации расходов, бесплатное тестирование продукции в рабочих условиях на Вашем оборудовании.
+                                    <br>
+                                    Это позволит:
                                     <ul>
-                                        <li> ширину и толщину пленки;</li>
-                                        <li>престретч и упругое восстановление;</li>
-                                        <li>особенности груза;</li>
-                                        <li>способ упаковки.</li>
+                                        <li>подобрать оптимальный вариант по критериям цена-качество</li>
+                                        <li>при тестировании подобрать оптимальные настройки для Вашего оборудования, которые позволят сократить расход упаковочных материалов;</li>
+                                        <li>сэкономить время и деньги.</li>
                                     </ul>
                                     <br>
-                                    Чем подробнее вы ответите на вопросы, тем быстрее мы подберем для вас материал с идеальным соотношением цены и качества.
+                                    Экономьте разумно с нашими упаковочными решениями!
                                 </div>
+                            </article>
+                            <article data-aos="fade-up" data-aos-delay="400" class="faq__block">
+                                <header class="faq__header">За какое время будет готов наш заказ?</header>
+                                <div class="faq__answer">Сроки изготовления Вашего заказа от 3 до 14 дней.</div>
+                            </article>
+                            <article data-aos="fade-up" data-aos-delay="400" class="faq__block">
+                                <header class="faq__header">Как совершается доставка продукции?</header>
+                                <div class="faq__answer">
+                                    Существует несколько видов доставки:
+                                    <ul>
+                                        <li>самовывоз;</li>
+                                        <li>доставка собственным транспортом компании (при условии объемов — доставка может быть бесплатной);</li>
+                                        <li>доставка транспортной компанией.</li>
+                                    </ul>
+                                </div>
+                            </article>
+                            <article data-aos="fade-up" data-aos-delay="400" class="faq__block">
+                                <header class="faq__header">Какие условия оплаты?</header>
+                                <div class="faq__answer">Для постоянных клиентов мы готовы предоставлять отсрочки платежа. Условия по отсрочкам обсуждаются индивидуально с Вашим личным менеджером.</div>
+                            </article>
+                            <article data-aos="fade-up" data-aos-delay="400" class="faq__block">
+                                <header class="faq__header">Возможно ли у Вас заказать продукцию по индивидуальным размерам и техническим характеристикам?</header>
+                                <div class="faq__answer">Да, наши технологи готовы разработать под Ваши потребности продукты с новыми техническими характеристиками и размерами. Условия по нестандартным размерам и техническим характеристикам продукции обсуждаются индивидуально с Вашим личным менеджером.</div>
+                            </article>
+                            <article data-aos="fade-up" data-aos-delay="400" class="faq__block">
+                                <header class="faq__header">Можно ли приехать к вам на завод?</header>
+                                <div class="faq__answer">Мы всегда рады нашим клиентам. По предварительной договоренности мы готовы организовать экскурсию для клиентов на наш завод. До встречи!</div>
                             </article>
                         </main>
                     </div>

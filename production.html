@@ -26,13 +26,23 @@
         </a>
         <nav class="header__nav">
             <a href="#" class="active">Главная</a>
-            <a href="#">Услуги</a>
-            <a href="#">Производство</a>
             <a href="#">О нас</a>
+            <a href="#">Производство</a>
+            <a href="#">Услуги</a>
+            <a href="#">Товары</a>
             <a href="#">Закупка отходов</a>
             <a href="#">Отзывы</a>
-            <a href="#">Отраслевые решения</a>
             <a href="#">Контакты</a>
+            <div class="header-submenu">
+                <div class="header-submenu__button">
+                    <span></span>
+                </div>
+                <div class="header-submenu__container">
+                    <a href="#">Отраслевые решения</a>
+                    <a href="#">Благотворительность</a>
+                    <a href="#">Новости</a>
+                </div>
+            </div>
             <button data-modal="callback" class="header__button button">
                 Позвонить
             </button>
@@ -63,14 +73,18 @@
 </header>
 
             <main class="content">
-                <section class="intro production text-right">
+                <section class="intro production">
                     <picture>
                         <source srcset="img/intro/production/tablet.png" media="(max-width: 992px)">
                         <source srcset="img/intro/production/mobile.png" media="(max-width: 576px)">
                         <img src="img/intro/production/production.png" alt="intro-bg">
                     </picture>
                     <div class="container">
-                        <h1 data-aos="fade-left">Наше производство</h1>
+                        <h1 data-aos="fade-left">
+                            Наше
+                            <br>
+                            производство
+                        </h1>
                     </div>
                 </section>
                 <section class="section production-page-garant">
@@ -82,21 +96,25 @@
                             <main data-aos="fade-left" data-aos-delay="200" class="block-left-gap__main row">
                                 <div class="block-left-gap__item">
                                     <h2>Стабильное качество</h2>
-                                    <p>Использование полимерного сырья известных марок SABIC, ExxonMobil.</p>
-                                    <p>Многоступенчатый контроль качества на всех этапах производства</p>
+                                    <p>Строгий контроль качества приобретаемого сырья (гранулы и вторичных пленок), автоматизация производства, исключающая ошибки и брак вследствие человеческого фактора, многоступенчатая система контроля качества производимых полуфабрикатов и готовой продукции</p>
                                 </div>
                                 <div class="block-left-gap__item">
-                                    <h2>Клиенто-ориентированный подход</h2>
-                                    <p>Широкие технологические возможности под любые задачи</p>
-                                    <p>Индивидуальные решения для каждого клиента</p>
+                                    <h2>
+                                        Ориентир 
+                                        на клиента
+                                    </h2>
+                                    <p>Широкие технологические возможности, долгосрочный опыт в подборе оптимальных решений и индивидуальный подход к каждому заказу позволяют производить продукцию максимально отвечающую потребностям заказчика в кратчайшие сроки</p>
                                 </div>
                                 <div class="block-left-gap__item">
-                                    <h2>Выгодные условия сотрудничества</h2>
-                                    <p>Конкурентные цены благодаря масштабированию производства</p>
-                                    <p>Гибкая система скидок и отсрочка платежа</p>
-                                    <p>Оперативная доставка товара</p>
-                                    <p>Бесплатные образцы продукции для тестирования</p>
-                                    <p>Собственные товарные резервы — гарантия бесперебойных поставок</p>
+                                    <h2>
+                                        Выгодные
+                                        <br>
+                                        условия
+                                    </h2>
+                                    <p>Конкурентные цены за счет полного цикла производства и автоматизации всех процессов</p>
+                                    <p>Доставка товара до склада покупателя</p>
+                                    <p>Для постоянных покупателей действуют индивидуальные условия по оплате.</p>
+                                    <p>Формирование товарных резервов для обеспечения бесперебойных поставок на нашем складе.</p>
                                 </div>
                             </main>
                         </header>
@@ -105,96 +123,56 @@
                 <section class="section production-page-production">
                     <div class="container">
                         <header data-aos="fade-down" class="block-header">
-                            <h2>Мы производим:</h2>
+                            <h2>Мы предлагаем:</h2>
                         </header>
                         <div class="production-page-production__counter block-counter">
-                            <div data-aos="fade-right" class="production-page-production__count block-counter__count">
-                                <p>Упаковочные материалы и вторичная гранула</p>
+                            <div class="production-page-production__count block-counter__count" data-aos="fade-right" data-aos-delay="100">
+                                <p>Вторичные гранулы стрейч и ПВД</p>
                             </div>
-                            <div data-aos="fade-right" data-aos-delay="100" class="production-page-production__count block-counter__count">
-                                <p>Пищевая пленка (стретч ПВХ, стретч полиэтиленовая)</p>
+                            <div class="production-page-production__count block-counter__count" data-aos="fade-right" data-aos-delay="200">
+                                <p>Джамбо роллы</p>
                             </div>
-                            <div data-aos="fade-right" data-aos-delay="200" class="production-page-production__count block-counter__count">
-                                <p>Паллетная стретч пленка (для ручной упаковки, для машинной упаковки)</p>
+                            <div class="production-page-production__count block-counter__count" data-aos="fade-right" data-aos-delay="300">
+                                <p>Стрейч пленку для машинной упаковки (из первичных, вторичных и смешанных гранул, окрашенных гранул).</p>
                             </div>
-                            <div data-aos="fade-right" data-aos-delay="300" class="production-page-production__count block-counter__count">
-                                <p>Термоусадочная (ПВХ, ПВД, ПОФ)</p>
+                            <div class="production-page-production__count block-counter__count" data-aos="fade-right" data-aos-delay="400">
+                                <p>Стрейч пленку для ручной упаковки (из первичных, вторичных и смешанных гранул, окрашенных гранул)</p>
                             </div>
-                            <div data-aos="fade-right" data-aos-delay="400" class="production-page-production__count block-counter__count">
-                                <p>Ленты, ПЭТ, ПП, Скобы, Натяжители</p>
+                            <div class="production-page-production__count block-counter__count" data-aos="fade-right" data-aos-delay="500">
+                                <p>Пищевые пленки (стрейч ПВХ, стрейч полиэтиленовая)</p>
                             </div>
-                            <div data-aos="fade-right" data-aos-delay="500" class="production-page-production__count block-counter__count">
+                            <div class="production-page-production__count block-counter__count" data-aos="fade-right" data-aos-delay="600">
+                                <p>Термоусадочные пленки (ПВХ, ПВД, ПОФ)</p>
+                            </div>
+                            <div class="production-page-production__count block-counter__count" data-aos="fade-right" data-aos-delay="700">
+                                <p>Ленты, ПЭТ, ПП, скобы, натяжители</p>
+                            </div>
+                            <div class="production-page-production__count block-counter__count" data-aos="fade-right" data-aos-delay="800">
                                 <p>Упаковочное оборудование</p>
                             </div>
-                            <div data-aos="fade-right" data-aos-delay="600" class="production-page-production__count block-counter__count">
+                            <div class="production-page-production__count block-counter__count" data-aos="fade-right" data-aos-delay="900">
                                 <p>Скотч (лента упаковочная, лента малярная, лента с логотипом, лента двухсторонняя)</p>
                             </div>
-                            <div data-aos="fade-right" data-aos-delay="700" class="production-page-production__count block-counter__count">
-                                <p>Картон (листовой гофрокартон, коробка из гофрокартона)</p>
+                            <div class="production-page-production__count block-counter__count" data-aos="fade-right" data-aos-delay="1000">
+                                <p>Картон (листовой гофрокартон, коробка из гофрокартона)</p>
                             </div>
-                            <div data-aos="fade-right" data-aos-delay="800" class="production-page-production__count block-counter__count">
-                                <p>Воздушно-пузырчатая пленка (двухслойная, трехслойная)</p>
+                            <div class="production-page-production__count block-counter__count" data-aos="fade-right" data-aos-delay="1100">
+                                <p>Воздушно-пузырчатая пленка (двухслойная, трехслойная)</p>
                             </div>
-                            <div data-aos="fade-right" data-aos-delay="900" class="production-page-production__count block-counter__count">
-                                <p>Паллетная стретч-пленка</p>
-                            </div>
-                            <div data-aos="fade-right" data-aos-delay="1000" class="production-page-production__count block-counter__count">
-                                <p>Стретч-пленка для ручной упаковки из первичных и вторичных полимеров</p>
-                            </div>
-                            <div data-aos="fade-right" data-aos-delay="1100" class="production-page-production__count block-counter__count">
-                                <p>Стретч-пленка для машинной упаковки из первичных и вторичных полимеров</p>
-                            </div>
-                            <div data-aos="fade-right" data-aos-delay="1200" class="production-page-production__count block-counter__count">
-                                <p>Стретч-пленка цветная</p>
-                            </div>
-                            <div data-aos="fade-right" data-aos-delay="1300" class="production-page-production__count block-counter__count">
-                                <p>Пленка для ритейла (багажная пленка)</p>
-                            </div>
-                            <div data-aos="fade-right" data-aos-delay="1400" class="production-page-production__count block-counter__count">
-                                <p>Термоусадочная пленка (трехслойная термоусадочная пленка  для групповой упаковки продукции различных отраслей промышленности)</p>
-                            </div>
-                            <div data-aos="fade-right" data-aos-delay="1500" class="production-page-production__count block-counter__count">
-                                <p>Ленты ПП и ПЭТ (для упаковки товара и фиксации груза)</p>
-                            </div>
-                            <div data-aos="fade-right" data-aos-delay="1600" class="production-page-production__count block-counter__count">
-                                <p>Трехслойный гофрокартон</p>
-                            </div>
-                            <div data-aos="fade-right" data-aos-delay="1700" class="production-page-production__count block-counter__count">
-                                <p>Клейкие ленты (двухсторонние, упаковочные, малярные, с логотипом)</p>
-                            </div>
-                            <div data-aos="fade-right" data-aos-delay="1800" class="production-page-production__count block-counter__count">
-                                <p>Клейкие ленты (двухсторонние, упаковочные, малярные, с логотипом)</p>
+                            <div class="production-page-production__count block-counter__count" data-aos="fade-right" data-aos-delay="1200">
+                                <p>Цветные стрейч-пленки для ручной упаковки багажа</p>
                             </div>
                         </div>
                     </div>
                 </section>
                 <section class="video-with-button">
-                    <video muted playsinline src="./files/1.mp4"></video>
+                    <video
+                        poster="./files/poster-1.png"
+                        muted
+                        playsinline
+                        src="./files/1.mp4"
+                    ></video>
                     <button class="video-with-button__play">cмотреть</button>
-                </section>
-                <section class="section production-page-slider">
-                    <div class="container">
-                        <header data-aos="fade-down" class="block-header">
-                            <h2>
-                                Ключевые направления
-                                <br>
-                                деятельности завода
-                            </h2>
-                        </header>
-                        <div class="swiper">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <img
-                                        data-aos="fade-right"
-                                        data-aos-delay="200"
-                                        src="img/production/content.png"
-                                        alt=""
-                                    >
-                                    <p data-aos="fade-left" data-aos-delay="400">На протяжении 14 лет компания укрепляет позиции как ведущий производитель упаковочных материалов на рынке полимерных материалов</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </section>
             </section>
         </main>

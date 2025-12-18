@@ -26,13 +26,23 @@
         </a>
         <nav class="header__nav">
             <a href="#" class="active">Главная</a>
-            <a href="#">Услуги</a>
-            <a href="#">Производство</a>
             <a href="#">О нас</a>
+            <a href="#">Производство</a>
+            <a href="#">Услуги</a>
+            <a href="#">Товары</a>
             <a href="#">Закупка отходов</a>
             <a href="#">Отзывы</a>
-            <a href="#">Отраслевые решения</a>
             <a href="#">Контакты</a>
+            <div class="header-submenu">
+                <div class="header-submenu__button">
+                    <span></span>
+                </div>
+                <div class="header-submenu__container">
+                    <a href="#">Отраслевые решения</a>
+                    <a href="#">Благотворительность</a>
+                    <a href="#">Новости</a>
+                </div>
+            </div>
             <button data-modal="callback" class="header__button button">
                 Позвонить
             </button>
@@ -67,7 +77,8 @@
                     <div class="container">
                         <header class="intro-trash__header">
                             <p data-aos="fade-right" data-aos-delay="200">
-                                Мы покупаем сортированные 
+                                Мы покупаем сортированные
+                                <br>
                                 и не сортированные отходы: стрейч-пленки, пленки ПВД.
                             </p>
                             <h1 data-aos="fade">Закупка отходов</h1>
@@ -107,38 +118,24 @@
                         </div>
                     </div>
                 </section>
-                <section class="advantages trash-page-advantages section">
-                    <div class="container">
-                        <header class="block-header">
-                            <h2>Схема сотрудничества</h2>
-                        </header>
-                        <main class="advantages__row grid-cards col-4 ">
-                            <div data-aos="fade-right" class="grid-cards__card advantages__advantage">
-                                <h3>Звоните или оставляете заявку на сайте</h3>
-                            </div>
-                            <div data-aos="fade-right" data-aos-delay="100" class="grid-cards__card advantages__advantage">
-                                <h3>Согласовываем время и место вывоза сырья</h3>
-                            </div>
-                            <div data-aos="fade-right" data-aos-delay="200" class="grid-cards__card advantages__advantage">
-                                <h3>Наш водитель приезжает и взвешивает сырье</h3>
-                            </div>
-                            <div data-aos="fade-right" data-aos-delay="300" class="grid-cards__card advantages__advantage green">
-                                <h3>Оплата по факту загрузки (возможен наличный и безналичный расчет)</h3>
-                            </div>
-                        </main>
-                    </div>
-                </section>
                 <section class="form trash-page-form black">
                     <div class="container">
                         <form action="#">
                             <header class="block-left-gap">
                                 <main class="block-left-gap__main">
-                                    <h2>Зарабатывайте на отходах</h2>
-                                    <p>
-                                        Оставьте заявку и мы свяжемся
-                                     
-                                        с вами!
-                                    </p>
+                                    <h2>
+                                        По вопросам продажи вторичных пленок
+                                        Вас проконсультирует менеджер по закупкам вторичного сырья
+                                        <a href="tel:8-988-584-60-00">8-988-584-60-00</a>
+                                    </h2>
+                                    <nav class="form__contact">
+                                        <img src="img/form/contact.png" alt="">
+                                        <div>
+                                            <p>Елена Кузьменко</p>
+                                            <a href="tel:+ 7(988)584-60-00">+ 7(988)584-60-00</a>
+                                            <a href="mailto:logist@spektr-pack.ru">logist@spektr-pack.ru</a>
+                                        </div>
+                                    </nav>
                                     <div class="inputs">
                                         <input
                                             type="text"
@@ -152,6 +149,7 @@
                                             placeholder="Телефон"
                                             required
                                         >
+                                        <input type="email" name="email" placeholder="Email">
                                     </div>
                                     <button type="submit" class="button">Отправить</button>
                                     <label class="checkbox">
@@ -164,6 +162,28 @@
                                 </main>
                             </header>
                         </form>
+                    </div>
+                </section>
+                <section class="advantages trash-page-advantages center section">
+                    <div class="container">
+                        <header class="block-header">
+                            <h2>Схема сотрудничества</h2>
+                        </header>
+                        <main class="advantages__row grid-cards col-4">
+                            <div data-aos="fade-right" class="grid-cards__card advantages__advantage">
+                                <h3>Звоните или оставляете заявку на сайте</h3>
+                            </div>
+                            <div data-aos="fade-right" data-aos-delay="100" class="grid-cards__card advantages__advantage">
+                                <h3>
+                                    Согласовываем время
+                                    <br>
+                                    и место вывоза сырья, чьим транспортным средством будет доставка
+                                </h3>
+                            </div>
+                            <div data-aos="fade-right" data-aos-delay="200" class="grid-cards__card advantages__advantage green">
+                                <h3>Оплата по договоренности</h3>
+                            </div>
+                        </main>
                     </div>
                 </section>
                 <section class="news trash-page-news section">
@@ -180,11 +200,7 @@
                                 </div>
                                 <div class="news__text">
                                     <p>
-                                        Для компаний, которые:
-                                        <br>
-                                        Ищут эффективное решение по утилизации полиэтилена
-                                        <br>
-                                        Стремятся повысить экономическую эффективность производства
+                                        Для компаний, которые: Ищут эффективное решение по реализации отходов ПВД и стрейч пленок, картонных гильз. Стремятся повысить экономическую эффективность производства.
                                     </p>
                                 </div>
                             </article>
@@ -196,11 +212,8 @@
                                     <p>
                                         Ваши выгоды:
                                         <br>
-                                        Экологическая ответственность — вклад в сохранение окружающей среды
-                                        <br>
-                                        Дополнительный доход от сдачи отходов на переработку
-                                        <br>
-                                        Освобождение производственных площадей от скопившегося сырья
+                                        Экологическая ответственность — вклад в сохранение окружающей среды. Дополнительный доход от сдачи отходов на переработку.
+                                        Освобождение производственных площадей от скопившихся отходов. Сокращение расходов на вывоз отходов.
                                     </p>
                                 </div>
                             </article>
@@ -210,21 +223,26 @@
                                 </div>
                                 <div class="news__text">
                                     <p>
-                                        Технологический процесс:
+                                        Технологический процесс:
                                         <br>
                                         → Современные методы переработки
                                         <br>
                                         → Получение качественных полиэтиленовых гранул
                                         <br>
-                                        → Снижение себестоимости конечной продукции
-                                        <br>
-                                        <br>
-                                        <br>
-                                        Это не просто утилизация – это рациональное использование ресурсов!
+                                        → Снижение себестоимости конечной продукции
                                     </p>
                                 </div>
                             </article>
                         </main>
+                    </div>
+                </section>
+                <section class="section intro-trash">
+                    <div class="container">
+                        <div class="block-left-gap intro-trash__about">
+                            <main class="block-left-gap__main">
+                                <h2 data-aos="fade-left" data-aos-delay="50">Это не просто вторичная переработка – это ответственное потребление и производство!</h2>
+                            </main>
+                        </div>
                     </div>
                 </section>
                 <section class="form">

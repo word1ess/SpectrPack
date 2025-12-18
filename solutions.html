@@ -26,13 +26,23 @@
         </a>
         <nav class="header__nav">
             <a href="#" class="active">Главная</a>
-            <a href="#">Услуги</a>
-            <a href="#">Производство</a>
             <a href="#">О нас</a>
+            <a href="#">Производство</a>
+            <a href="#">Услуги</a>
+            <a href="#">Товары</a>
             <a href="#">Закупка отходов</a>
             <a href="#">Отзывы</a>
-            <a href="#">Отраслевые решения</a>
             <a href="#">Контакты</a>
+            <div class="header-submenu">
+                <div class="header-submenu__button">
+                    <span></span>
+                </div>
+                <div class="header-submenu__container">
+                    <a href="#">Отраслевые решения</a>
+                    <a href="#">Благотворительность</a>
+                    <a href="#">Новости</a>
+                </div>
+            </div>
             <button data-modal="callback" class="header__button button">
                 Позвонить
             </button>
@@ -75,11 +85,6 @@
                 </section>
                 <section class="sub-intro-solutions">
                     <div class="container">
-                        <div class="block-lines">
-                            <div class="line"></div>
-                            <div class="line"></div>
-                            <div class="line"></div>
-                        </div>
                         <p data-aos="fade-left">
                             Мы быстро реагируем на изменения рынка
                             <br>
@@ -90,71 +95,694 @@
                 </section>
                 <section class="actives solutions-page-actives">
                     <div class="container">
-                        <div class="block-lines">
-                            <div class="line"></div>
-                            <div class="line"></div>
-                            <div class="line"></div>
-                        </div>
                         <header class="block-header">
                             <h2 data-aos="fade-left">Все отрасли для использования нашей продукции</h2>
                         </header>
                         <main class="actives__row">
                             <aside data-aos="fade-right" class="actives__aside">
-                                <img src="img/solutions/content.png" alt="">
+                                <img src="img/svgicons/logo-small.svg" alt="">
                             </aside>
                             <main class="actives__main">
-                                <p data-aos="fade-left">Мебельная отрасль</p>
-                                <div class="actives__counter block-counter">
-                                    <div data-aos="fade-left" class="actives__count block-counter__count">
-                                        <p>Ручной стрейч (из первичного или вторичного сырья), размер и масса в ассортименте</p>
+                                <div class="swiper">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <p data-aos="fade-left">Мебельная отрасль</p>
+                                            <div class="actives__counter block-counter ">
+                                                <div data-aos="fade-left" class="actives__count block-counter__count">
+                                                    <p>Ручной стрейч (из первичного или вторичного сырья), размер и масса в ассортименте</p>
+                                                </div>
+                                                <div data-aos="fade-left" data-aos-delay="50" class="actives__count block-counter__count">
+                                                    <p>
+                                                        Пищевая стрейч пленка 
+                                                        в ассортименте
+                                                    </p>
+                                                </div>
+                                                <div data-aos="fade-left" data-aos-delay="100" class="actives__count block-counter__count">
+                                                    <p>Рукав ПВД (из первичного или вторичного сырья)</p>
+                                                </div>
+                                                <div data-aos="fade-left" data-aos-delay="150" class="actives__count block-counter__count">
+                                                    <p>Липкая лента (скотч) ручной (прозрачный, цветной и с нанесением логотипа)</p>
+                                                </div>
+                                                <div data-aos="fade-left" data-aos-delay="200" class="actives__count block-counter__count">
+                                                    <p>Лента ПП в ассортименте, инструмент и расходные материалы</p>
+                                                </div>
+                                                <div data-aos="fade-left" data-aos-delay="250" class="actives__count block-counter__count">
+                                                    <p>Воздушно-пузырчатая пленка в ассортименте</p>
+                                                </div>
+                                                <div data-aos="fade-left" data-aos-delay="300" class="actives__count block-counter__count">
+                                                    <p>Изоком в ассортименте</p>
+                                                </div>
+                                                <div data-aos="fade-left" data-aos-delay="350" class="actives__count block-counter__count">
+                                                    <p>Перчатки</p>
+                                                </div>
+                                                <div data-aos="fade-left" data-aos-delay="400" class="actives__count block-counter__count">
+                                                    <p>Мешки для мусора (ПНД/ПВД)</p>
+                                                </div>
+                                                <div data-aos="fade-left" data-aos-delay="450" class="actives__count block-counter__count">
+                                                    <p>Мешки строительные (полипропиленовые)</p>
+                                                </div>
+                                                <div data-aos="fade-left" data-aos-delay="500" class="actives__count block-counter__count">
+                                                    <p>Гофроящики, гофролисты, защитные уголки, гильзы картонные в ассортименте</p>
+                                                </div>
+                                            </div>
+                                            <a href="#" class="button">Подробнее</a>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <p>Производство консерв и бакалейных изделий</p>
+                                            <div class="actives__counter block-counter">
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Ручной стрейч (из первичного или вторичного сырья), размер и масса в ассортименте</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Машинный стрейч(из первичного или вторичного сырья)</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Термоусадочная пленка (из первичного или вторичного сырья)</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Липкая лента (скотч) ручной (прозрачный, цветной и с нанесением логотипа)</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Липкая лента (скотч) машинный (прозрачный, цветной и с нанесением логотипа)</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Лента ПП в ассортименте, инструмент и расходные материалы</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Перчатки</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Мешки для мусора (ПНД/ПВД)</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Гофроящики, гофролисты, защитные уголки, гильзы картонные в ассортименте</p>
+                                                </div>
+                                            </div>
+                                            <a href="#" class="button">Подробнее</a>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <p>Производство молочной продукции</p>
+                                            <div class="actives__counter block-counter">
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Ручной стрейч (из первичного или вторичного сырья), размер и масса в ассортименте</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Машинный стрейч (из первичного или вторичного сырья)</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Термоусадочная пленка (из первичного или вторичного сырья)</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Липкая лента (скотч) ручной (прозрачный, цветной и с нанесением логотипа)</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Липкая лента (скотч) машинный (прозрачный, цветной и с нанесением логотипа)</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Перчатки</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Мешки для мусора (ПНД/ПВД)</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Гофроящики, гофролисты, защитные уголки, гильзы картонные в ассортименте</p>
+                                                </div>
+                                            </div>
+                                            <a href="#" class="button">Подробнее</a>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <p>Производство безалкогольных и слабоалкогольных напитков</p>
+                                            <div class="actives__counter block-counter">
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Ручной стрейч (из первичного или вторичного сырья), размер и масса в ассортименте</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Машинный стрейч (из первичного или вторичного сырья)</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Термоусадочная пленка (из первичного или вторичного сырья)</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Липкая лента (скотч) ручной (прозрачный, цветной и с нанесением логотипа)</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Липкая лента (скотч) машинный (прозрачный, цветной и с нанесением логотипа)</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Лента ПП в ассортименте, инструмент и расходные материалы</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Перчатки</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Мешки для мусора (ПНД/ПВД)</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Гофроящики, гофролисты, защитные уголки, гильзы картонные в ассортименте</p>
+                                                </div>
+                                            </div>
+                                            <a href="#" class="button">Подробнее</a>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <p>Производство алкогольных напитков</p>
+                                            <div class="actives__counter block-counter">
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Ручной стрейч (из первичного или вторичного сырья), размер и масса в ассортименте</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Машинный стрейч (из первичного или вторичного сырья)</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Липкая лента (скотч) ручной (прозрачный, цветной и с нанесением логотипа)</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Липкая лента (скотч) машинный (прозрачный, цветной и с нанесением логотипа)</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Лента ПП в ассортименте, инструмент и расходные материалы</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Перчатки</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Мешки для мусора (ПНД/ПВД)</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Гофроящики, гофролисты, защитные уголки, гильзы картонные в ассортименте</p>
+                                                </div>
+                                            </div>
+                                            <a href="#" class="button">Подробнее</a>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <p>Производство хлебобулочных и кондитерских изделий</p>
+                                            <div class="actives__counter block-counter">
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Ручной стрейч (из первичного или вторичного сырья), размер и масса в ассортименте</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Машинный стрейч (из первичного или вторичного сырья)</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Пищевая стрейч пленка в ассортименте</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Липкая лента (скотч) ручной (прозрачный, цветной и с нанесением логотипа)</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Липкая лента (скотч) машинный (прозрачный, цветной и с нанесением логотипа)</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Пленка ПОФ в ассортименте</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Перчатки</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Мешки для мусора (ПНД/ПВД)</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Пакеты фасовочные</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Гофроящики, гофролисты, защитные уголки, гильзы картонные в ассортименте</p>
+                                                </div>
+                                            </div>
+                                            <a href="#" class="button">Подробнее</a>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <p>Производство мясной продукции</p>
+                                            <div class="actives__counter block-counter">
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Ручной стрейч (из первичного или вторичного сырья), размер и масса в ассортименте</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Машинный стрейч (из первичного или вторичного сырья)</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Пищевая стрейч пленка в ассортименте</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Термоусадочная пленка (из первичного или вторичного сырья)</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Липкая лента (скотч) ручной (прозрачный, цветной и с нанесением логотипа)</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Липкая лента (скотч) машинный (прозрачный, цветной и с нанесением логотипа)</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Пленка ПОФ в ассортименте</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Пленка ПВХ в ассортименте</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Перчатки</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Мешки для мусора (ПНД/ПВД)</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Пакеты фасовочные</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Гофроящики, гофролисты, защитные уголки, гильзы картонные в ассортименте</p>
+                                                </div>
+                                            </div>
+                                            <a href="#" class="button">Подробнее</a>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <p>Строительная отрасль</p>
+                                            <div class="actives__counter block-counter">
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Ручной стрейч (из первичного или вторичного сырья), размер и масса в ассортименте</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Машинный стрейч (из первичного или вторичного сырья)</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Термоусадочная пленка (из первичного или вторичного сырья)</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Рукав ПВД (из первичного или вторичного сырья)</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Липкая лента (скотч) ручной (прозрачный, цветной и с нанесением логотипа)</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Лента ПЭТ в ассортименте, инструмент и расходные материалы</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Лента ПП в ассортименте, инструмент и расходные материалы</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Воздушно-пузырчатая пленка в ассортименте</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Изоком в ассортименте</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Перчатки</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Мешки для мусора (ПНД/ПВД)</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Мешки строительные (полипропиленовые)</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Гофроящики, гофролисты, защитные уголки, гильзы картонные в ассортименте</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Поликарбонат</p>
+                                                </div>
+                                            </div>
+                                            <a href="#" class="button">Подробнее</a>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <p>Сельское хозяйство</p>
+                                            <div class="actives__counter block-counter">
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Ручной стрейч (из первичного или вторичного сырья), размер и масса в ассортименте</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Машинный стрейч (из первичного или вторичного сырья)</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Рукав ПВД (из первичного или вторичного сырья)</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Липкая лента (скотч) ручной (прозрачный, цветной и с нанесением логотипа)</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Пленка ПОФ в ассортименте</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Перчатки</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Мешки для мусора (ПНД/ПВД)</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Перчатки</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Мешки для мусора (ПНД/ПВД)</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Пакеты фасовочные</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Гофроящики, гофролисты, защитные уголки, гильзы картонные в ассортименте</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Поликарбонат</p>
+                                                </div>
+                                            </div>
+                                            <a href="#" class="button">Подробнее</a>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <p>Химическая промышленность</p>
+                                            <div class="actives__counter block-counter">
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Ручной стрейч (из первичного или вторичного сырья), размер и масса в ассортименте</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Машинный стрейч (из первичного или вторичного сырья</p>
+                                                    )
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Термоусадочная пленка (из первичного или вторичного сырья</p>
+                                                    )
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Липкая лента (скотч) ручной (прозрачный, цветной и с нанесением логотипа</p>
+                                                    )
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Липкая лента (скотч) машинный (прозрачный, цветной и с нанесением логотипа</p>
+                                                    )
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Лента ПП в ассортименте, инструмент и расходные материалы</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Пленка ПОФ в ассортименте</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Воздушно-пузырчатая пленка в ассортименте</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Изоком в ассортименте</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Перчатки</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Мешки для мусора (ПНД/ПВД</p>
+                                                    )
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Мешки строительные (полипропиленовые</p>
+                                                    )
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Гофроящики, гофролисты, защитные уголки, гильзы картонные в ассортименте</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Гранула стрейч/ПВД, жмых полимерный, дробленка</p>
+                                                </div>
+                                            </div>
+                                            <a href="#" class="button">Подробнее</a>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <p>Рыбная промышленность</p>
+                                            <div class="actives__counter block-counter">
+                                                <div class="actives__count block-counter__count">
+                                                    <p>
+                                                        Ручной стрейч (из первичного или вторичного сырья), размер и масса в ассортименте
+                                                    </p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>
+                                                        Машинный стрейч (из первичного или вторичного сырья)
+                                                    </p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>
+                                                        Пищевая стрейч пленка в ассортименте
+                                                    </p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>
+                                                        Термоусадочная пленка (из первичного или вторичного сырья)
+                                                    </p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>
+                                                        Липкая лента (скотч) машинный (прозрачный, цветной и с нанесением логотипа)
+                                                    </p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>
+                                                        Лента ПП в ассортименте, инструмент и расходные материалы
+                                                    </p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>
+                                                        Пленка ПОФ в ассортименте
+                                                    </p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>
+                                                        Пленка ПВХ в ассортименте
+                                                    </p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>
+                                                        Перчатки
+                                                    </p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>
+                                                        Мешки для мусора (ПНД/ПВД)
+                                                    </p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>
+                                                        Пакеты фасовочные
+                                                    </p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>
+                                                        Гофроящики, гофролисты, защитные уголки, гильзы картонные в ассортименте
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <a href="#" class="button">Подробнее</a>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <p>Легкая промышленность</p>
+                                            <div class="actives__counter block-counter">
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Ручной стрейч (из первичного или вторичного сырья), размер и масса в ассортименте</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Машинный стрейч (из первичного или вторичного сырья)</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Термоусадочная пленка (из первичного или вторичного сырья)</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Рукав ПВД (из первичного или вторичного сырья)</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Липкая лента (скотч) машинный (прозрачный, цветной и с нанесением логотипа)</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Лента ПП в ассортименте, инструмент и расходные материалы</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Лента ПП в ассортименте, инструмент и расходные материалы</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Воздушно-пузырчатая пленка в ассортименте</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Изоком в ассортименте</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Перчатки</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Мешки для мусора (ПНД/ПВД)</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Гофроящики, гофролисты, защитные уголки, гильзы картонные в ассортименте</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Гранула стрейч/ПВД, жмых полимерный, дробленка</p>
+                                                </div>
+                                            </div>
+                                            <a href="#" class="button">Подробнее</a>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <p>Ритейл и складская логистика</p>
+                                            <div class="actives__counter block-counter">
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Ручной стрейч (из первичного или вторичного сырья), размер и масса в ассортименте</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Машинный стрейч (из первичного или вторичного сырья)</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Багажная стрейч пленка (цветная)</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Пищевая стрейч пленка в ассортименте</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Термоусадочная пленка (из первичного или вторичного сырья)</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Рукав ПВД (из первичного или вторичного сырья)</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Липкая лента (скотч) ручной (прозрачный, цветной и с нанесением логотипа)</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Липкая лента (скотч) машинный (прозрачный, цветной и с нанесением логотипа)</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Лента ПЭТ в ассортименте, инструмент и расходные материалы</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Лента ПП в ассортименте, инструмент и расходные материалы</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Воздушно-пузырчатая пленка в ассортименте</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Изоком в ассортименте</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Перчатки</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Мешки для мусора (ПНД/ПВД)</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Мешки строительные (полипропиленовые)</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Пакеты фасовочные</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Гофроящики, гофролисты, защитные уголки, гильзы картонные в ассортименте</p>
+                                                </div>
+                                            </div>
+                                            <a href="#" class="button">Подробнее</a>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <p>Полиграфия</p>
+                                            <div class="actives__counter block-counter">
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Ручной стрейч (из первичного или вторичного сырья), размер и масса в ассортименте</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Машинный стрейч (из первичного или вторичного сырья)</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Липкая лента (скотч) ручной (прозрачный, цветной и с нанесением логотипа)</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Липкая лента (скотч) машинный (прозрачный, цветной и с нанесением логотипа)</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Лента ПЭТ в ассортименте, инструмент и расходные материалы</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Лента ПП в ассортименте, инструмент и расходные материалы</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Пленка ПОФ в ассортименте</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Воздушно-пузырчатая пленка в ассортименте</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Изоком в ассортименте</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Перчатки</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Мешки для мусора (ПНД/ПВД)</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Гофроящики, гофролисты, защитные уголки, гильзы картонные в ассортименте</p>
+                                                </div>
+                                            </div>
+                                            <a href="#" class="button">Подробнее</a>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <p>Оптовые продажи</p>
+                                            <div class="actives__counter block-counter">
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Ручной стрейч (из первичного или вторичного сырья), размер и масса в ассортименте</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Машинный стрейч (из первичного или вторичного сырья)</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Джамбо-рулоны стрейч (из первичного или вторичного сырья)</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Багажная стрейч пленка (цветная)</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Пищевая стрейч пленка в ассортименте</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Термоусадочная пленка (из первичного или вторичного сырья)</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Рукав ПВД (из первичного или вторичного сырья)</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Липкая лента (скотч) ручной (прозрачный, цветной и с нанесением логотипа)</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Липкая лента (скотч) машинный (прозрачный, цветной и с нанесением логотипа)</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Лента ПЭТ в ассортименте, инструмент и расходные материалы</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Лента ПП в ассортименте, инструмент и расходные материалы</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Пленка ПОФ в ассортименте</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Пленка ПВХ в ассортименте</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Воздушно-пузырчатая пленка в ассортименте</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Изоком в ассортименте</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Перчатки</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Мешки для мусора (ПНД/ПВД)</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Мешки строительные (полипропиленовые)</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Пакеты фасовочные</p>
+                                                </div>
+                                                <div class="actives__count block-counter__count">
+                                                    <p>Гофроящики, гофролисты, защитные уголки, гильзы картонные в ассортименте</p>
+                                                </div>
+                                            </div>
+                                            <a href="#" class="button">Подробнее</a>
+                                        </div>
                                     </div>
-                                    <div data-aos="fade-left" data-aos-delay="50" class="actives__count block-counter__count">
-                                        <p>
-                                            Пищевая стрейч пленка 
-                                            в ассортименте
-                                        </p>
-                                    </div>
-                                    <div data-aos="fade-left" data-aos-delay="100" class="actives__count block-counter__count">
-                                        <p>Рукав ПВД (из первичного или вторичного сырья)</p>
-                                    </div>
-                                    <div data-aos="fade-left" data-aos-delay="150" class="actives__count block-counter__count">
-                                        <p>Липкая лента (скотч) ручной (прозрачный, цветной и с нанесением логотипа)</p>
-                                    </div>
-                                    <div data-aos="fade-left" data-aos-delay="200" class="actives__count block-counter__count">
-                                        <p>Лента ПП в ассортименте, инструмент и расходные материалы</p>
-                                    </div>
-                                    <div data-aos="fade-left" data-aos-delay="250" class="actives__count block-counter__count">
-                                        <p>Воздушно-пузырчатая пленка в ассортименте</p>
-                                    </div>
-                                    <div data-aos="fade-left" data-aos-delay="300" class="actives__count block-counter__count">
-                                        <p>Изоком в ассортименте</p>
-                                    </div>
-                                    <div data-aos="fade-left" data-aos-delay="350" class="actives__count block-counter__count">
-                                        <p>Перчатки</p>
-                                    </div>
-                                    <div data-aos="fade-left" data-aos-delay="400" class="actives__count block-counter__count">
-                                        <p>Мешки для мусора (ПНД/ПВД)</p>
-                                    </div>
-                                    <div data-aos="fade-left" data-aos-delay="450" class="actives__count block-counter__count">
-                                        <p>Мешки строительные (полипропиленовые)</p>
-                                    </div>
-                                    <div data-aos="fade-left" data-aos-delay="500" class="actives__count block-counter__count">
-                                        <p>Гофроящики, гофролисты, защитные уголки, гильзы картонные в ассортименте</p>
+                                    <div class="swiper-buttons">
+                                        <div class="swiper-button-prev">
+                                            <img src="img/svgicons/arrow-down.svg" alt="arrow-down">
+                                        </div>
+                                        <div class="swiper-button-next">
+                                            <img src="img/svgicons/arrow-down.svg" alt="arrow-down">
+                                        </div>
                                     </div>
                                 </div>
                             </main>
                         </main>
-                        <footer data-aos="fade-up" class="solutions-page-actives__footer">
-                            <a href="#">Перейти на страницу услуг</a>
-                            <a href="#" class="arrow-down left">
-                                <div class="arrow-down__img">
-                                    <img src="img/svgicons/arrow-down.svg" alt="arrow-down">
-                                </div>
-                                <p>
-                                    смотреть все отрасли
-                                </p>
-                            </a>
-                        </footer>
                     </div>
                 </section>
                 <section class="solutions-page-princips">
@@ -163,19 +791,38 @@
                             <aside data-aos="fade-right" class="block-left-gap__aside">
                                 <p>
                                     Принципы устойчивого
-                                    
                                     развития
                                 </p>
                             </aside>
                             <main data-aos="fade-left" data-aos-delay="200" class="block-left-gap__main">
                                 <h2>
-                                    Помимо лидирующих позиций 
-                                    на рынке ЮФО по производству упаковочной пленки, мы также поставляем ее крупнейшим промышленным предприятиям
+                                    Экономическая устойчивость:
                                 </h2>
-                                <p>С 2020 года компания является экооператором и крупнейшим переработчиком вторичных пленок в Ростовской области. Входит в Союз переработчиков пластмасс России</p>
-                                <p>Является членом ТПП РО.</p>
-                                <p>Компания предлагает весь спектр упаковочных материалов: стрейч-плёнка (палетная и пищевая), термоусадочные плёнки, гофрокартон, скотч, ленты ПП и ПЭТ и прочее.</p>
-                                <p>Ключевыми клиентами компании являются «Атлантис-Пак», «Вотерфолл», «Белый медведь», «Шахтинская керамика», завод шампанских вин «Абрау Дюрсо», «Аксайская птицефабрика», «Масикс» и другие.</p>
+                                <ol>
+                                    <li>Повышение производительности за счет современных автоматизированных высокопроизводительных технологий и оборудования.</li>
+                                    <li>Разработка новых рецептур для упаковочных материалов.</li>
+                                    <li>Инновации становятся частью повседневной работы, а не отдельной «лабораторией»</li>
+                                    <li>Циркулярная экономика – более 70% выпускаемой продукции из вторичного сырья, технологические отходы пленки, возникающие при производстве, идут в переработку и в дальнейшее производство готового продукта.</li>
+                                    <li>Участие в международных и всероссийских выставках для отслеживания трендов развития технологий и адаптации собственных упаковочных решений под запросы рынка</li>
+                                </ol>
+                                <h2>Общество:</h2>
+                                <ol>
+                                    <li>Создание равных условий для всех сотрудников</li>
+                                    <li>Создание условий, обеспечивающих достойную жизнь и развитие сотрудников компании</li>
+                                    <li>Постоянное развитие компетенций сотрудников</li>
+                                    <li>Каждый сотрудник может предлагать улучшения и участвовать в экспериментах</li>
+                                    <li>Организация корпоративных мероприятий для сотрудников и членов их семей.</li>
+                                    <li>Профориентация школьников и студентов, проведение экскурсий по заводу с целью знакомства с рабочими профессиями</li>
+                                    <li>Реализация благотворительных проектов – 1 рубль с каждого кг произведенной продукции направляется в фонд поддержки детей из неблагополучных семей, поддержка и помощь детским домам, домам престарелых и инвалидов</li>
+                                </ol>
+                                <h2>Окружающая среда:</h2>
+                                <ol>
+                                    <li>Рациональное использование ресурсов</li>
+                                    <li>Управление отходами – мы предлагаем нашим клиентам обратный выкуп отходов пленки стрейч и ПВД, картонных гильз</li>
+                                    <li>Минимизация воздействия на окружающую среду.</li>
+                                    <li>Закольцованное использование воды</li>
+                                    <li>Участники проекта Зеленая экономика</li>
+                                </ol>
                                 <div class="solutions-page-princips__slider swiper">
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
@@ -184,10 +831,7 @@
                                         </div>
                                         <div class="swiper-slide">
                                             <img src="img/solutions/slider/2.png" alt="">
-                                            <p>
-                                                РАЗВИТИЕ НОВЫХ ЭКОЛОГИЧЕСКИХ РЕШЕНИЙ 
-                                                В УПАКОВКЕ
-                                            </p>
+                                            <p>РАЗВИТИЕ НОВЫХ ЭКОЛОГИЧЕСКИХ РЕШЕНИЙ В УПАКОВКЕ</p>
                                         </div>
                                         <div class="swiper-slide">
                                             <img src="img/solutions/slider/3.png" alt="">
@@ -198,15 +842,20 @@
                                             <p>ОПТИМИЗАЦИЯ ЛОГИСТИЧЕСКОЙ СИСТЕМЫ</p>
                                         </div>
                                         <div class="swiper-slide">
-                                            <img src="img/solutions/slider/1.png" alt="">
-                                            <p>СОДЕЙСТВИЕ СОХРАНЕНИЮ НЕВОЗОБНОВЛЯЕМЫХ ПРИРОДНЫХ РЕСУРСОВ</p>
+                                            <img src="img/solutions/slider/5.png" alt="">
+                                            <p>ПОДДЕРЖКА ОТВЕТСТВЕННОГО ПОТРЕБЛЕНИЯ</p>
                                         </div>
                                         <div class="swiper-slide">
-                                            <img src="img/solutions/slider/2.png" alt="">
-                                            <p>
-                                                РАЗВИТИЕ НОВЫХ ЭКОЛОГИЧЕСКИХ РЕШЕНИЙ 
-                                                В УПАКОВКЕ
-                                            </p>
+                                            <img src="img/solutions/slider/6.png" alt="">
+                                            <p>СОЗДАНИЕ УНИКАЛЬНЫХ ПРОДУКТОВ КЛИЕНТАМ С ЦЕЛЬЮ УВЕЛИЧЕНИЯ ИХ КОНКУРЕНТО-СПОСОБНОСТИ</p>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="img/solutions/slider/7.png" alt="">
+                                            <p>ВНЕДРЕНИЕ НОВЫХ ТЕХНОЛОГИЙ В ПРОИЗВОДСТВО ДЛЯ СНИЖЕНИЯ ЭКОЛОГИЧЕСКОЙ НАГРУЗКИ</p>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="img/solutions/slider/8.png" alt="">
+                                            <p>ЦИРКУЛЯРНАЯ ЭКОНОМИКА</p>
                                         </div>
                                     </div>
                                     <div class="swiper-pagination"></div>
@@ -234,6 +883,7 @@
                                             placeholder="Телефон"
                                             required
                                         >
+                                        <input type="email" name="email" placeholder="Email">
                                     </div>
                                     <button type="submit" class="button">Отправить</button>
                                     <label class="checkbox">

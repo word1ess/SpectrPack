@@ -26,13 +26,23 @@
         </a>
         <nav class="header__nav">
             <a href="#" class="active">Главная</a>
-            <a href="#">Услуги</a>
-            <a href="#">Производство</a>
             <a href="#">О нас</a>
+            <a href="#">Производство</a>
+            <a href="#">Услуги</a>
+            <a href="#">Товары</a>
             <a href="#">Закупка отходов</a>
             <a href="#">Отзывы</a>
-            <a href="#">Отраслевые решения</a>
             <a href="#">Контакты</a>
+            <div class="header-submenu">
+                <div class="header-submenu__button">
+                    <span></span>
+                </div>
+                <div class="header-submenu__container">
+                    <a href="#">Отраслевые решения</a>
+                    <a href="#">Благотворительность</a>
+                    <a href="#">Новости</a>
+                </div>
+            </div>
             <button data-modal="callback" class="header__button button">
                 Позвонить
             </button>
@@ -133,6 +143,7 @@
                                             placeholder="Телефон"
                                             required
                                         >
+                                        <input type="email" name="email" placeholder="Email">
                                     </div>
                                     <button type="submit" class="button">Отправить</button>
                                     <label class="checkbox">
